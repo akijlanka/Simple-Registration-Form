@@ -22,7 +22,7 @@ if (!$connection) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Manage Employee|Ajax</title>
+    <title>Manage|Ajax</title>
     <!--link bootstrap css-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
