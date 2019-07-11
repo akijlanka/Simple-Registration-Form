@@ -136,3 +136,36 @@ $('#btnadd').click(function () {
     });
 
 });
+// Add button end
+
+//Delete Button
+$('#btndelete').click(function () {
+    var customerformdata=$('#myForm').serialize();
+    $.ajax({
+        url:"delete_customer.php",
+        method:"POST",
+        async:true,
+        data: customerformdata
+    }).done(function (res) {
+        alert(res);
+    });
+
+});
+
+//Delete button end
+
+//Update Button
+
+$('#btnupdate').click(function () {
+    var customerformdata=$('#myForm').serialize();
+    $.ajax({
+        url:"update_customer.php",
+        method:"POST",
+        async:true,
+        data: customerformdata
+    }).done(function (res) {
+        alert(res);
+    });
+
+});
+//Update button end

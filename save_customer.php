@@ -37,9 +37,6 @@ if ($result){
     echo "Customer Add";
 }else{
     echo mysqli_error($connection);
-
-//    mysqli_error();
-//die(mysqli_error($connection));
 }
 
 ?>
